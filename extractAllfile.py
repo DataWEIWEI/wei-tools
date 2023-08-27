@@ -52,6 +52,8 @@ the_process.start()
 while the_process.is_alive():
     animated_loading()
 
-
+print('文件开始复制清等待…………')
 file_copy(folder_path, all_files)
+print('文件复制结束，十秒后自动关闭')
+time.sleep(10)
 
