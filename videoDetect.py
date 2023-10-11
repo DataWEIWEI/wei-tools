@@ -77,6 +77,7 @@ the_process.start()
 while the_process.is_alive():
     animated_loading()
 
+num = 0
 for video in video_path:
     # 调用函数检查视频文件是否损坏
     if is_video_corrupted(video):
@@ -87,3 +88,8 @@ for video in video_path:
     else:
         # 没有损坏
         print(f"{video} is not corrupted.")
+
+    num += 1
+    print(f'detected {num} video')
+
+print('detection complete!!!')
