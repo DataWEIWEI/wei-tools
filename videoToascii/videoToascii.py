@@ -29,7 +29,7 @@ class videoToascii:
         self.outpath = 'temp_out'
 
         # 设置图片缩小的倍数
-        self.resize_times = 3
+        self.resize_times = 6   # 涉及到转换时间，倍数越小，时间指数上升
 
         # 设置输出文件的名字,声音文件以及带声音的输出文件
         self.mp3ilename = os.path.join(self.outpath, temp_arr[0] + '.mp3')
