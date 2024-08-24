@@ -1,6 +1,4 @@
-<center>
-### 各种脚本的作用
-</center>
+<h2 style="text-align: center;">各种脚本的作用</h2>
 
 - `BilSpider`：基于 `Xpath` 的B站关键词搜索引擎爬虫项目。
 - `RenameBatchfile`：文件批量命名脚本。
